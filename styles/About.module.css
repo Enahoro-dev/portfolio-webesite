@@ -1,0 +1,54 @@
+.container h1{
+    text-align: center;
+    margin: 90px auto 40px auto;
+}
+
+.layout {
+    width:90%;
+    margin:auto;
+}
+
+.right {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.left span{
+    color:#1E90FF;
+}
+
+@media only screen and (min-width:500px){
+    .layout{
+        width: 80%;
+    }
+}
+
+@media only screen and (min-width:650px){
+    .layout{
+        width: 70%;
+    }
+}
+
+@media only screen and (min-width:750px){
+    .layout{
+        width: 60%;
+    }
+}
+
+@media only screen and (min-width:850px){
+    .layout{
+        display:flex;
+        width:90%;
+        align-items:center;
+    }
+
+    .right{
+        width:50%;
+        margin-right: 10%;
+    }
+
+    .left{
+        width:40%;
+    }
+}

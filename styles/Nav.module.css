@@ -1,0 +1,66 @@
+.container button{
+    margin-left: 15px;
+    margin-top: 35px;
+    background: none;
+    border: none;
+}
+
+.bars{
+    font-size: 30px;
+    color:white;
+}
+
+.hidden{
+    display: none;
+}
+
+.container ul{
+    position: absolute;
+    top:15px;
+    left:15px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
+    padding: 0px;
+}
+
+.container li{
+    padding: 10px 10px;
+    cursor:pointer;
+}
+
+.container p{
+    padding: 0px;
+    margin: 0px;
+    font-weight: bold;   
+}
+
+
+.container li:hover{
+    color: white;
+    background-color: #1E90FF;
+}
+
+@media only screen and (min-width:750px){
+    .container ul{
+        flex-direction: row;
+        background-color: transparent;
+    }
+
+    .hidden {
+        display: block;
+    }
+
+    .container button{
+        display:none;
+    }
+
+    .container li{
+        font-size: 20px;
+    }
+
+    .container p{
+        font-weight: 500;
+    }
+}
