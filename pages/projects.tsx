@@ -40,7 +40,7 @@ const Home:NextPage<Props> = ({projects}) => {
 export default Home
 
 
-export const getStaticProps = async () => {
+export const getServerSideProps = async () => {
     const res = await fetch(`${server}/api/projects`)
     const projects = await res.json()
 
