@@ -11,7 +11,7 @@ export const projects:Project[] =[
     {
         id:1,
         title:'INDIGO',
-        body:"Indigo is an electronic medical records system (EMR) built with a next/typescript frontend and a django-postgreSQL backend. It's still currently in development but you can view the source code or a live demo with the links below.",
+        body:"Indigo is an electronic medical records system (EMR) desktop app built with a next/typescript frontend and a django-postgreSQL backend. It's still currently in development but you can view the source code or a live demo(desktop version) with the links below.",
         image:'/images/indigo.png',
         github:'https://github.com/Enahoro-dev/indigo-backend',
         live:'https://indigo-emr.vercel.app/'
