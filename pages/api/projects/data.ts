@@ -11,10 +11,10 @@ export const projects:Project[] =[
     {
         id:1,
         title:'INDIGO',
-        body:"Indigo is an electronic medical records system (EMR) built with a next/typescript frontend and its backend with the django rest framework and postgreSQL. It provides aims to provide easier access to patient files for doctors through its simple UI and search features.",
-        image:'/images/dater.png',
-        github:'https://github.com/Enahoro-dev/heart-disease-prediction-api',
-        live:'https://heart-ml-api.herokuapp.com/heart_prediction'
+        body:"Indigo is an electronic medical records system (EMR) built with a next/typescript frontend and a django-postgreSQL backend. It's still currently in development but you can view the source code or a live demo with the links below.",
+        image:'/images/indigo.png',
+        github:'https://github.com/Enahoro-dev/indigo-backend',
+        live:'https://indigo-emr.vercel.app/'
     },
     {
         id:2,
@@ -27,7 +27,7 @@ export const projects:Project[] =[
     {
         id:3,
         title:'DATER',
-        body:"Dater, as its name suggests is an expected date of delivery and gestational age calculator made with react and tailwind. It's a simple calculator which uses the last menstrual period to get these values. It was designed and built by me in a few days to improve my understanding of react.js.",
+        body:"Dater, as its name suggests is an expected date of delivery and gestational age calculator made with react and tailwind. You can try it or view it's source code with the links below.",
         image:'/images/dater.png',
         github:'https://github.com/Enahoro-dev/dater',
         live:'https://reactdater.netlify.app/'
@@ -46,12 +46,12 @@ export const projects:Project[] =[
         body:"A logistic regression model for heart disease prediction with API built with fast api. It makes use of variables such as age, sex, cholesterol levels, E.C.G variables,e.t.c to make this prediction. Details for the implementation of this api can be found in the README of its github repository linked below.",
         image:'/images/heart.png',
         github:'https://github.com/Enahoro-dev/heart-disease-prediction-api',
-        live:'https://heart-ml-api.herokuapp.com/heart_prediction'
+        live:'https://github.com/Enahoro-dev/heart-disease-prediction-api'
     },
     {
         id:6,
-        title:'NOTES',
-        body:"A simple CRUD notes app with its frontend built with react and typescript and linked to an SQL lite database.",
+        title:"ENA'S NOTES",
+        body:"A simple CRUD django-react notes app.",
         image:'/images/notes.png',
         github:'https://github.com/Enahoro-dev/django-notesapp',
         live:'https://enas-notes.netlify.app/'

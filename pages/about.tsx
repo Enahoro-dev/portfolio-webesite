@@ -19,7 +19,7 @@ const Home: NextPage = () => {
             <p>Hi, my name is <span>Abhulimen Enahoro</span>- but you can call me Ena :).</p>
             <p>I am a Full stack software developer from Lagos, Nigeria skilled in <span>react</span>, <span>typescript</span> and the <span>Django REST framework</span>.</p>
             <p>I have always been passionate about health care as it was the reason I got into tech in the first place, my passion was spurred by the severe lack of 21st century healthcare solutions in my community.</p>
-            <p>I spend my free time watching anime, working out and currently; reading about how convolutional neural networks can be used in malignant tumor detection.</p>
+            <p>I spend my free time listening to afrobeats music, watching anime, working out and currently; reading about how convolutional neural networks can be used in malignant tumor detection.</p>
           </div>
       </div>
     </div>
